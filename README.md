@@ -7,8 +7,14 @@
     - Pretty solid score
 
 ## Submission #2
-- 3 Epochs
+- 10 Epochs
 - Uses location data
+- Score: 0.83113
+    - Not as high as I hoped
+    - Likely due to faulty data in training
+
+## Submission #3
+- 10 Epochs
 
 ## Ideas for improvement
 - use the bert-base-cased model instead
