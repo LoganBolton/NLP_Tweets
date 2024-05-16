@@ -15,9 +15,17 @@
 
 ## Submission #3
 - 10 Epochs
+- Uses location data
+- Cleaned Data
+    - Removed duplicate rows (about 3% of original training data)
+    - Removed locations that were not real places
+- Score: 0.83481
+    - Smaller impovement than expected
+    - Cleaning the data did not impact the data as much as expected
 
 ## Ideas for improvement
 - use the bert-base-cased model instead
     - Upper case could be meaningful data
-- Clean up the data
-    - According to the discussion, there are some data entries that are duplicated with bad labels
+    - Current model of bert-base-uncased only works with lower case text
+- Place greater emphasis on the location during training
+    - Small improvement after introducing location data to training implies that the location data is not being prioritized effeciently by the model
