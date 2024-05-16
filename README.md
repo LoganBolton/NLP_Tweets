@@ -1,4 +1,5 @@
-# Kaggle Twitter disaster prediction competition
+# Natural Language Processing with Disaster Tweets
+https://www.kaggle.com/competitions/nlp-getting-started/overview
 
 ## Submission #1
 - 3 Epochs
